@@ -1,0 +1,155 @@
+/* begin css for nav bar */
+body {
+  background-image: url("http://more-sky.com/data/out/10/IMG_386462.png");
+  background-repeat: no-repeat;
+}
+
+ul.sansserif {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8E8E93;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+    /* referenced from css-tricks.com */
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 120px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #C7C7CC;
+}
+.active {
+  background-color: #4A4A4A;
+}
+img{
+  border-radius: 12px;
+  display: block;
+  margin: auto;
+}
+/* end of css for nav bar */
+
+/*start css for about me part in nav.css doc */
+
+p.par{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+h1.title {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 300%;
+}
+#main {
+  margin: auto;
+  font-size: 200%;
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+/* referenced from css-tricks.com */
+}
+footer.credits{
+  font-size: 30%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+/* end of css for about */
+
+/* start bio.html */
+#vim{
+  border-radius: 12px;
+  display: block;
+  margin: auto;
+}
+#int {
+  margin: auto;
+  font-size: 100%;
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+/* referenced from css-tricks.com */
+}
+#credit{
+  color: white;
+  font-style: italic;
+  font-size: 40%;
+
+}
+
+/* end css for bio.html
+
+/*start css for interest.html doc */
+
+h1.title {
+text-align: center;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: white;
+}
+p.list{
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 200%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+p.par{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 70%;
+
+}
+
+/* end of css for interest.html */
+
+/* begin css for portfolio.html */
+
+a.webLinks:visited {
+  color: gray;
+}
+a.webLinks:hover {
+  color: teal;
+  font-size: 150%;
+}
+span{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+#git{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#git:hover{
+  color:teal;
+  font-size: 300%;
+}
+#gitCredit{
+  color: white;
+  font-style: italic;
+  font-size: 40%;
+}
